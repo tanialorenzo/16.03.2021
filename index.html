@@ -36,7 +36,7 @@ section{
     background-color: lightsalmon;
 }
 #section4{
-    background-color: lightgreen;
+    background-color: #575756;
 }
 .navI, .navD{
     height: 100%;
@@ -154,7 +154,7 @@ td img{
     font-size: 20px;
 }
 
-/****    SECCIÓN  3   *****/
+        /****    SECCIÓN  3   *****/
 #contenedor{
     width: 100%;
     height: 700px;
@@ -179,8 +179,69 @@ h1{
 .intercaja p{
     font-size: 25px;
 }
+.cajaquesos{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+.cajaquesos img{
+    padding-top: 30px;
+}
 
+/**** SECCIÓN  4  ****/
 
+.contenedor4{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+    color: white;
+}
+.cajarriba{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.cajabajo{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    text-align: center;
+}
+.cajitas{
+    vertical-align: top;
+    display: inline-block;
+    width: 150px;
+    /* height: 150px; */
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+   
+}
+.cajitas img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+#verde:hover{
+  box-shadow: 0px 0px 15px #009432;
+  border-radius: 100%;
+}
+#azul:hover{
+    box-shadow: 0px 0px 15px #00a8ff;
+    border-radius: 100%;
+}
+#naranja:hover{
+    box-shadow: 0px 0px 15px #e84118;
+}
+#azuul:hover{
+    box-shadow: 0px 0px 15px #341f97;
+}
 </style>
 <body>
     <header>
@@ -256,23 +317,77 @@ h1{
             <div class="intercaja">
                 <img src="img/pt.png" alt="">
                 <p>Portugal</p>
+                <div class="cajaquesos">
+                    <img src="img/castilla.jpg" alt="">
+                    <img src="img/galicia.jpg" alt="">
+                    <img src="img/valencia.jpg" alt="">
+                    <img src="img/vasco.jpg" alt="">
+                </div>
             </div>
             <div class="intercaja">
                 <img src="img/ital.png" alt="">
                 <p>Italia</p>
+                <div class="cajaquesos">
+                    <img src="img/galicia.jpg" alt="">
+                    <img src="img/valencia.jpg" alt="">
+                    <img src="img/vasco.jpg" alt="">
+                    <img src="img/castilla.jpg" alt="">
+                </div>
             </div>
             <div class="intercaja">
                 <img src="img/fr.png" alt="">
                 <p>Francia</p>
+                <div class="cajaquesos">
+                <img src="img/valencia.jpg" alt="">
+                <img src="img/vasco.jpg" alt="">
+                <img src="img/castilla.jpg" alt="">
+                <img src="img/galicia.jpg" alt="">
+                </div>
             </div>
             <div class="intercaja">
                 <img src="img/de.png" alt="">
                 <p>Alemania</p>
+                <div class="cajaquesos">
+                <img src="img/vasco.jpg" alt="">
+                <img src="img/castilla.jpg" alt="">
+                <img src="img/galicia.jpg" alt="">
+                <img src="img/valencia.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>
     <section id="section4">
-
+        <div class="contenedor4">
+            <div class="cajarriba">
+            <p>Sobre Nosotros</p>
+            <br><br><br>
+            <p>Póngase en contacto con nosotros a través de las siguientes plataformas</p>
+            </div>
+      
+            <div class="cajabajo">
+                <div class="cajitas">
+                    <img id="verde" src="img/whatsapp.png" alt="">
+                    <br><br> 
+                    <b>W H A T S A P P</b>
+                </div>
+                
+                <div class="cajitas">
+                    <img id="naranja" src="img/instagram.png" alt="">
+                    <br><br>
+                    <b>I N S T A G R A M</b>
+                </div>
+                <div class="cajitas">
+                    <img id="azul" src="img/telegram.png" alt="">
+                    <br><br>
+                    <b>T E L E G R A M</b>
+                </div>
+                <div class="cajitas">
+                    <img id="azuul" src="img/facebook.png" alt="">
+                    <br><br>
+                    <b>F A C E B O O K</b>
+                </div>
+            </div>
+        </div>
     </section>
 
 
